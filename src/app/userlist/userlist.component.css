@@ -1,0 +1,62 @@
+table {
+    width: 100%;
+  }
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .main-body {
+    /* padding-top: 20px; */
+    margin: 50px;
+    /* max-width: 1348px; */
+    mat-form-field {
+      width: 100%;
+    }
+  }
+  
+  .action {
+    display: flex;
+    gap: 5px;
+  }
+  /* mat-form-field{
+    background-color: white;
+    margin-bottom: 20px;
+  } */
+
+  .color{
+    background-color: rgb(39, 38, 38);
+
+  }
+  span{
+    color: white
+  }
+
+  .main-body {
+  padding: 10px;
+}
+
+.table-container {
+  overflow: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .mat-header-cell, .mat-cell {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .mat-form-field {
+    width: 100%;
+  }
+
+  mat-toolbar {
+    flex-direction: column;
+  }
+
+  .mat-toolbar-row {
+    flex-direction: row;
+    width: 100%;
+  }
+}

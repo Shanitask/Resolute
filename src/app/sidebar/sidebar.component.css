@@ -1,0 +1,19 @@
+.user1{
+    color: white;
+}
+.user2{
+    color: white;
+    font-size: 30px;
+    margin: 8px;
+    /* text-align: center!important; */
+}
+.active-link {
+    background-color: green;
+  }
+  
+  .user1 {
+    cursor: pointer;
+  }
+  /* .list{
+    margin-top: 60px
+  } */

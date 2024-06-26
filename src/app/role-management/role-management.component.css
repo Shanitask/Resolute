@@ -1,0 +1,19 @@
+.role-management {
+    padding: 16px;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  mat-form-field {
+    width: 100%;
+  }
+  .color{
+    background-color: rgb(39, 38, 38);
+
+  }
+  span{
+    color: white
+  }
+  

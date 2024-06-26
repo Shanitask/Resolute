@@ -1,0 +1,18 @@
+.example-container {
+    width: auto;
+    height: 100%;
+    /* margin: 10px; */
+    /* border: 1px solid #555; */
+
+    background: #eee;
+  }
+  .sidebar{
+    width: 20%;
+    background-color: rgb(39, 38, 38);
+    /* color: white; */
+  }
+  .sidebar2{
+    width: 80%;
+  }
+
+  

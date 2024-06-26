@@ -1,0 +1,13 @@
+<mat-drawer-container class="example-container" fxFlexFill>
+    <mat-drawer 
+      #drawer 
+      class="sidebar" 
+      [mode]="drawerMode" 
+      [opened]="drawerOpened">
+      <app-sidebar></app-sidebar>
+    </mat-drawer>
+    <mat-drawer-content class="sidebar2" fxFlexFill>
+      <router-outlet></router-outlet>
+    </mat-drawer-content>
+  </mat-drawer-container>
+  
